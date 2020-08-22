@@ -8,8 +8,14 @@ def roll_call_dwarves(dwarves)
   end
 end
 
-def summon_captain_planet(powers)
-  
+def summon_captain_planet(summon)
+  calls = []
+  i = 0
+  while i < summon.length
+    summon.map do |element|
+    cap = element.capitalize
+    calls << "#{cap}!"
+  end
 end
 
 def long_planeteer_calls
