@@ -26,6 +26,8 @@ def long_planeteer_calls(calls)
   calls.each do |long|
     if long.length <= 4
       too_long = false
+    else
+      true
     end
     too_long
   end
