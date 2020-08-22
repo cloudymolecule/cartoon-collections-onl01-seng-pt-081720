@@ -15,6 +15,7 @@ def summon_captain_planet(summon)
     summon.map do |element|
     cap = element.capitalize
     calls << "#{cap}!"
+    i += 1
   end
   end
   calls
