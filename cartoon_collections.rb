@@ -22,10 +22,10 @@ def summon_captain_planet(summon)
 end
 
 def long_planeteer_calls(calls)
-  too_long = false
+  too_long = true
   calls.each do |long|
-    if long.length > 4
-      too_long = true
+    if long.length <= 4
+      too_long = false
     end
     too_long
   end
