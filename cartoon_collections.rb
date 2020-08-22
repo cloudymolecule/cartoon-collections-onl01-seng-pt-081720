@@ -31,11 +31,11 @@ def find_the_cheese(array)
     array.each do |i|
       array.detect {|i| i == cheese_types}
     end
-  elsif array.include?("cheddar")
+  elsif array.include?("gouda")
     array.each do |i|
       array.detect {|i| i == cheese_types}
     end
-  elsif array.include?("cheddar")
+  elsif array.include?("camembert")
     array.each do |i|
       array.detect {|i| i == cheese_types}
     end
