@@ -16,6 +16,7 @@ def summon_captain_planet(summon)
     cap = element.capitalize
     calls << "#{cap}!"
   end
+  calls
 end
 
 def long_planeteer_calls
