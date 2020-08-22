@@ -26,6 +26,7 @@ def long_planeteer_calls(calls)
   while i < calls.length
     calls.any? do |long|
       long.length > 4
+      i += 1
     end
   end
 end
