@@ -12,11 +12,11 @@ def summon_captain_planet(summon)
   calls = []
   i = 0
   while i < summon.length
-    summon.map do |element|
-    cap = element.capitalize
-    calls << "#{cap}!"
-    i += 1
-  end
+      summon.map do |element|
+      cap = element.capitalize
+      calls << "#{cap}!"
+      i += 1
+    end
   end
   calls
 end
