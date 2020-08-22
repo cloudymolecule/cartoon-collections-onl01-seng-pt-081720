@@ -30,6 +30,6 @@ def find_the_cheese(string)
   if string.include?(cheese_types)
     return
   else
-    false
+    return
   end
 end
