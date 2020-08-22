@@ -22,7 +22,12 @@ def summon_captain_planet(summon)
 end
 
 def long_planeteer_calls(calls)
-
+  i = 0
+  while i < calls.length
+    calls.any? do |long|
+      long.length > 4
+    end
+  end
 end
 
 def find_the_cheese
